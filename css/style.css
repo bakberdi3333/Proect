@@ -64,7 +64,7 @@ body {
         font-size: 40px;
         margin: 0 auto;
     }
-    .caropka {
+    .two-title {
         flex-direction: column;
     }
     .photo-list {
@@ -164,7 +164,7 @@ body {
     color: var(--light-text, #fff);
     font-size: 52px;
     font-weight: 400;
-    line-height: 62px; 
+    line-height: 62px;
 }
 .text-menu {
     width: 60%;
@@ -221,7 +221,7 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-.caropka {
+.two-title {
     display: flex;
     justify-content: space-between;
     gap: 33px;
@@ -313,11 +313,13 @@ body {
     background: #000;
     padding: 10px 30px;
     border: 1px solid #fff;
+
 }
 .photo-btn-info {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 .social-img {
     display: flex;
@@ -343,6 +345,13 @@ body {
     }
     .sociol-title {
         display: flex;
+    }
+    .footer__blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .option-info {
+        flex-direction: column;
     }
 }
 .website-title {
@@ -460,6 +469,7 @@ body {
     border-radius: 33px;
     background: #343434;
     margin-top: 200px;
+    margin-bottom: 300px;
 }
 .open-info {
     display: flex;
@@ -485,6 +495,7 @@ body {
     height: 52px;
     padding: 20px 36px;
     align-items: center;
+    border: none;
     background: var(--primary, #4452fe);
 }
 .open-img {
@@ -495,4 +506,57 @@ body {
         flex-direction: column;
         background: none;
     }
+    
+        
+        
+    
+}
+.footer {
+    padding: 100px 0 50px 0;
+}
+
+.footer__blocks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.footer_block_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__block-title {
+    color: var(--light-text, #fff);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.footer_block_nav-link {
+    color: var(--light-text, #fff);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+.footer-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-img1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_block_social {
+    display: flex;
+    gap: 50px;
+}
+@media screen and (max-width:320px) {
+    .title {
+        font-size: 52px;
+    }
+
+    
 }
